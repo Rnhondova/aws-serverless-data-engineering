@@ -31,6 +31,15 @@ Then curl `curl http://127.0.0.1:3000/hello`
 * CloudWatch Logs
 * IAM Security settings
 
+## Other AWS elements required
+
+Set up the following AWS services:
+
+* DynamoDB
+* Simple Queue Service(SQS)
+
+Also remeber to set up the an IAM role that allows a lamda function admin access.
+
 
 ## Other Videos 
 
